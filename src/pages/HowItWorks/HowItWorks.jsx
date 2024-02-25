@@ -13,7 +13,7 @@ const Adim = () => {
       <div className="step">
       <h4 className='h1'>Adım 1</h4>
         <p>Problemi farkedin</p>
-        <img src="assets/img/portfolio/step-1.png" ></img>
+        <img src="assets/img/portfolio/Step-1.png" ></img>
       </div>
       <div className="step">
         <h4 className='h1'>Adım 2</h4>
