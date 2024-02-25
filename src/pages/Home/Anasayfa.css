@@ -1,0 +1,69 @@
+#heroCarousel {
+    width: 100%;
+    height: 600px; /* veya istediğiniz bir yükseklik değeri */
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .carousel-container .container {
+    text-align: center;
+    color: #fff; /* Yazı rengini istediğiniz şekilde ayarlayabilirsiniz */
+  }
+  
+  /* İsterseniz animasyonlar ekleyebilirsiniz */
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .animate__fadeInDown {
+    animation-name: fadeInDown;
+    color: #d2ed06;
+    font-size: 50px;
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+
+  
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
